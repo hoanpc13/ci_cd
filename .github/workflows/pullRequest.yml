@@ -1,0 +1,46 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Print hello
+        run: echo "CI is running"
+
+  build:
+    runs-on: macos-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build iOS project
+        run: |
+          xcodebuild \
+            -project CI_CD.xcodeproj \
+            -scheme CI_CD \
+            -destination 'generic/platform=iOS Simulator' \
+            clean build
+
+  unit-test:
+    runs-on: macos-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run unit tests
+        run: |
+          xcodebuild \
+            -project CI_CD.xcodeproj \
+            -scheme CI_CD \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            DEVELOPMENT_TEAM="" \
+            test

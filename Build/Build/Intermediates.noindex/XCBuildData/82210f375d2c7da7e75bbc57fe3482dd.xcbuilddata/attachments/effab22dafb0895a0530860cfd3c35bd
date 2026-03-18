@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests-master.dia",
+    "emit-module-dependencies" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests-master.swiftdeps"
+  },
+  "/Users/hoanpc/Documents/FL/Me/CI_CD/CI_CDTests/CI_CDTests.swift" : {
+    "const-values" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests.swiftconstvalues",
+    "dependencies" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests.d",
+    "diagnostics" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests.dia",
+    "index-unit-output-path" : "/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests.o",
+    "llvm-bc" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests.bc",
+    "object" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests.o",
+    "swift-dependencies" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests.swiftdeps",
+    "swiftmodule" : "/Users/hoanpc/Documents/FL/Me/CI_CD/Build/Build/Intermediates.noindex/CI_CD.build/Debug-iphonesimulator/CI_CDTests.build/Objects-normal/arm64/CI_CDTests~partial.swiftmodule"
+  }
+}
