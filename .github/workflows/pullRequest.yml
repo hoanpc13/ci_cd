@@ -41,10 +41,10 @@ jobs:
             -scheme CI_CD \
             -showdestinations
 
-      - name: Run unit tests
+      - name: Run unit tests (Mac)
         run: |
           xcodebuild \
             -project CI_CD.xcodeproj \
             -scheme CI_CD \
-            -destination 'platform=iOS Simulator,name=Any iOS Simulator Device' \
+            -destination 'platform=macOS,arch=arm64,variant=Designed for [iPad,iPhone]' \
             test
