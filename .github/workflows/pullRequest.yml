@@ -46,5 +46,5 @@ jobs:
           xcodebuild \
             -project CI_CD.xcodeproj \
             -scheme CI_CD \
-            -destination 'platform=macOS,arch=arm64,variant=Designed for [iPad,iPhone]' \
+            -destination 'platform=macOS,name=My Mac' \
             test
