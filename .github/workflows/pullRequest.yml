@@ -39,7 +39,7 @@ jobs:
           xcodebuild \
             -project CI_CD.xcodeproj \
             -scheme CI_CD \
-            -destination 'platform=macOS,name=My Mac' \
+            -destination 'generic/platform=iOS Simulator' \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             DEVELOPMENT_TEAM="" \
